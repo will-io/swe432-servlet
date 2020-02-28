@@ -3,7 +3,7 @@
 
 This tutorial will show you how to deploy a Heroku app that allows running Servlets and JSPs.
 
-# Step 1:Creating GitHub and Heroku accounts
+# Create GitHub and Heroku accounts
 
 You can create accounts for free in both platforms (do not provide payment info). Also, use your personal email so you can keep your accounts after you graduate:
 
@@ -12,6 +12,8 @@ b. https://signup.heroku.com/ Provide your info and proceed.
 
 Optional: You can use GitHub student package by creating an account here:https://www.heroku.com/github-students. 
 
+# Create a Git repo and and link it to Heroku app 
+
 ## Getting this repo
 
 If you have not install Git before, you can get it here: https://git-scm.com/downloads
@@ -19,7 +21,7 @@ If you have not install Git before, you can get it here: https://git-scm.com/dow
 If you want to skip the creation steps you can clone the finished sample and then skip to the 'Deploy Your Application to Heroku' section:
 
 ```
-$ git clone git@github.com:heroku/devcenter-embedded-tomcat.git
+$ git clone https://github.com/luminaxster/swe432tomcat.git
 ```
 
 ## Follow the Guide
