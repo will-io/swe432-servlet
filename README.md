@@ -25,17 +25,19 @@ Now, follow these steps to bring this repo into your Github account:
 
 ## 1. Create an empty repo in your Github:
 
-a. Go to github.com, login into your account, select the "repositories" tab, click on "New".
+a. Go to [Github](www.github.com), login into your account, select the "repositories" tab, click on "New".
 
-b. Once in the "Crew a new repository" page: give a name to your repo, make it private and let other options as is, and click on "create repository".
+b. Once in the "Create a new repository" page: give a name to your repo, make it private and let any other option untouched, and click on "create repository".
 
 c. This will take you to your new repository's page, here copy the url to access your repo in the quick setup section.
 It should look like this:
 
 ``` "https://github.com/<your_username>/<newly_created_repo_name>.git"```
 
-## 2. Get this repo locally in your machine:
+We will use this URL in step 3.
 
+## 2. Get this repo locally in your machine:
+This code contains all necessary boilerplate for supporting Servlets/JSP in a Heroku app:
 ```
 git clone https://github.com/luminaxster/swe432tomcat.git
 ```
@@ -59,7 +61,7 @@ Go to https://dashboard.heroku.com/apps: click on "New" > "Create New App", prov
 
 ## 5. Link repo and deploy 
 
-Once in your app's web page, select the "deploy" tab:
+Once in your Heroku app web page, select the "deploy" tab:
 
  a. set the deploy method to "Github",
  
