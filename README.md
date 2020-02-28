@@ -1,15 +1,20 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-# Create a Java Web Application using Embedded Tomcat
+# A pretty Simple Servlet/JSP using Heroku
 
-This tutorial will show you how to create a simple Java web application using embedded Tomcat.
+This tutorial will show you how to deploy a Heroku app that allows running Servlets and JSPs.
 
-## Prerequisites
+# Step 1:Creating GitHub and Heroku accounts
 
-* Basic Java knowledge, including an installed version of the JVM and Maven.
-* Basic Git knowledge, including an installed version of Git.
-* A Java web application. If you don't have one follow the first step to create an example. Otherwise skip that step.
+You can create accounts for free in both platforms (do not provide payment info). Also, use your personal email so you can keep your accounts after you graduate:
 
-## Skip The Application Creation
+a. https://github.com/join Use your personal email address (you can add your academic email later to access student benefits), provide your info and proceed, use the individual plan.
+b. https://signup.heroku.com/ Provide your info and proceed.
+
+Optional: You can use GitHub student package by creating an account here:https://www.heroku.com/github-students. 
+
+## Getting this repo
+
+If you have not install Git before, you can get it here: https://git-scm.com/downloads
 
 If you want to skip the creation steps you can clone the finished sample and then skip to the 'Deploy Your Application to Heroku' section:
 
