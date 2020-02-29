@@ -3,6 +3,8 @@
 
 This tutorial will show you how to deploy a Heroku app that allows running Servlets and JSPs.
 
+Check the currently deployed version: https://swe432tomcat.herokuapp.com
+
 # Create GitHub and Heroku accounts
 
 You can create accounts for free in both platforms (do not provide any payment info). Also, use your personal email so you can keep your accounts after you graduate:
