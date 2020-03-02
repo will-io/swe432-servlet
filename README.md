@@ -57,25 +57,25 @@ git push
 
 ## 4. Create a Heroku app
 
-Go to https://dashboard.heroku.com/apps: click on "New" > "Create New App", provide a name to it, and click on "create app".
+Go to https://dashboard.heroku.com/apps: click on "New" > "Create New App", give it a name, and click on "create app".
 
 ## 5. Link repo and deploy 
 
 Once in your Heroku app web page, select the "deploy" tab:
 
- a. set the deploy method to "Github".
+ a. set the deploy method to "Github"
  
- b. authorize Heroku to access your GitHub repositories.
+ b. authorize Heroku to access your GitHub repositories
  
- c. select the recently created one.
+ c. select the recently created one
  
- d. click on "connect".
+ d. click on "connect"
  
- e. activate automatic deploys.
+ e. activate automatic deploys
  
- f. click on deploy the "master" branch (only this time so you can see the changes immediately).
+ f. click on deploy the "master" branch (only this time so you can see the changes immediately)
  
- g. Once your deploy is processed, click on "View".
+ g. Once your deploy is processed, click on "View"
  
 ## Updating your repo and redeploying
 
