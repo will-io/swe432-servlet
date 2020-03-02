@@ -57,7 +57,7 @@ git push
 
 ## 4. Create a Heroku app
 
-Go to https://dashboard.heroku.com/apps: click on "New" > "Create New App", give it a name, and click on "create app".
+Go to https://dashboard.heroku.com/apps: click on "New" > "Create New App", provide a name, and click on "create app".
 
 ## 5. Link repo and deploy 
 
