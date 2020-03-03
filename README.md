@@ -24,26 +24,26 @@ If you have not installed Git before, you can get it here: https://git-scm.com/d
 
 Now, follow these steps to bring this repo into your Github account:
 
-## 1. Create an empty repo in your Github:
+## 1. Get this repo locally in your machine:
+This code contains all necessary boilerplate for supporting servlets and JSPs in a Heroku app:
+```
+git clone https://github.com/luminaxster/swe432tomcat.git
+```
+
+## 2. Create an empty repo in your Github:
 
 a. Go to [Github](www.github.com), login into your account, select the "repositories" tab, click on "New". Once in the "Create a new repository" page: give a name to your repo, make it private and let other options default, and click on "create repository".
 
 c. This will take you to your new repository's page. Copy the url to access your repo in the quick setup section.
 It should look like this:
 
-``` "https://github.com/<your_username>/<newly_created_repo_name>.git"```
+``` https://github.com/<your_username>/<newly_created_repo_name>.git```
 
 We will use this URL in step 3.
 
-## 2. Get this repo locally in your machine:
-This code contains all necessary boilerplate for supporting servlets and JSPs in a Heroku app:
-```
-git clone https://github.com/luminaxster/swe432tomcat.git
-```
-
 ## 3. Redirect the local repo to your own repo and save the changes:
 
-Remember to replace the url template "https://github.com/<your_username>/<newly_created_repo_name>.git" with your repo's url.
+Remember to replace the url from step 2 ( ``` https://github.com/<your_username>/<newly_created_repo_name>.git ``` ) with your own repo's url.
 
 ```
 cd swe432tomcat
