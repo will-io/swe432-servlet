@@ -1,4 +1,3 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 # Using Heroku to deploy servlets and JSPs
 
 This tutorial will show you how to deploy a Heroku app that runs Servlets and JSPs.
