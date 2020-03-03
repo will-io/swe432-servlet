@@ -47,7 +47,7 @@ git clone https://github.com/luminaxster/swe432tomcat.git
 Remember to replace the url template "https://github.com/<your_username>/<newly_created_repo_name>.git" with your repo's url.
 
 ```
-cd swe432
+cd swe432tomcat
 git init
 git remote set-url origin "https://github.com/<your_username>/<newly_created_repo_name>.git"
 git add .
