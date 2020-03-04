@@ -106,17 +106,20 @@ Important: Reopen your terminal for the changes to be reflected.
 If you have not installed the Heroku CLI  before, you can get it here: https://devcenter.heroku.com/articles/heroku-cli.
 
 ### Build and run your app
-To run the app contained in your repo, go your repo's root folder, the "POM.xml" should be there, this file is the configuration Maven uses to build your app. Run this command in your terminal:
+To run the app contained in your repo, go your repo's root folder, the "POM.xml" should be there, this file is the configuration Maven uses to build your app. 
+
+Run this command in your terminal to build the app:
 ```
 mvn package
 ```
 
-Once your app is built, run your app with:
+And this one to run it:
+
 ```
 heroku local
 ```
 
-Once your app is up and running locally, you can access at http://localhost:5000.
+You should be able to access your app at http://localhost:5000.
 
 ## Important
 After you are satisfied changing your code, remember they are still in your machine. You must push these changes to your github's web repo (remote), only then they will be visible to everybody. If you followed the steps linking your Heroku app with this repo, pushing changes in to your remote repo will redeploy your Heroku app.
