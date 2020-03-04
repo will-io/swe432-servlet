@@ -119,10 +119,10 @@ heroku local
 Once your app is up and running locally, you can access at htttp://localhost:5000.
 
 ## Important
-After you are satisfied with the changes you made to your code, remember they are still in your machine. You must push these changes to your github's web repo (remote), and they will be visible to everyone who has access to your repo. If you followed the steps linking your Heroku app with this repo, it will automaitcally deploy it.
+After you are satisfied changing your code, remember they are still in your machine. You must push these changes to your github's web repo (remote), only then they will be visible to everybody. If you followed the steps linking your Heroku app with this repo, pushing changes in to your remote repo will redeploy your Heroku app.
 
 # Sharing your repo with the TA
-Your repo must be private and for me to grade your code, add me a a contributor. My username is luminaxster.
+Your repo must be private at all times and for me to grade your code, please add me as a contributor. My username is luminaxster.
 
 # Follow the original guide
 For more details about how to create a Tomcat setup from scratch, go to the Dev Center guide on how to [Create a Java Web Application using Embedded Tomcat](https://devcenter.heroku.com/articles/create-a-java-web-application-using-embedded-tomcat).
