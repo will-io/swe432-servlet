@@ -116,7 +116,7 @@ Once your app is built, run your app with:
 heroku local
 ```
 
-Once your app is up and running locally, you can access at htttp://localhost:5000.
+Once your app is up and running locally, you can access at http://localhost:5000.
 
 ## Important
 After you are satisfied changing your code, remember they are still in your machine. You must push these changes to your github's web repo (remote), only then they will be visible to everybody. If you followed the steps linking your Heroku app with this repo, pushing changes in to your remote repo will redeploy your Heroku app.
