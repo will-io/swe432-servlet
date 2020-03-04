@@ -80,12 +80,56 @@ Once in your Heroku app web page, select the "deploy" tab:
 
 You only have to push your changes on your repo and they will redeploy automatically.
 
+# Running your app locally
 
-## Follow the original guide
+Before deploying your app in the Web, you normally program, debug and test your app locally. To do so, we will need Apache Maven to build your app and Heroku CLI to run it locally. 
+
+### Apache Maven installation
+
+If you have not installed Apache Maven before, you can get the binaries here: https://maven.apache.org/download.cgi, and follow the instructions here: https://maven.apache.org/install.html.
+
+Note: if you are using a Unix-like system (e.g MacOS, Linux), you need to open a terminal and add the path to Maven permanently in your bash profile:
+```
+vi ~/.bash_profile
+```
+And add the following line to this file so Maven is runnable from the terminal from now on:
+```
+export PATH=/opt/apache-maven-3.6.3/bin:$PATH
+```
+The line above assumes Maven's path is "/opt/apache-maven-3.6.3/bin", or that your Maven download has been moved there. You can use a different path too, make sure your path is reflected in this line.
+
+For Windows machines, add Maven's path to the PATH propertty in the system's environment variables.
+
+Important: Reopen your terminal for the changes to be reflected.
+
+### Heroku CLI installation
+If you have not installed the Heroku CLI  before, you can get it here: https://devcenter.heroku.com/articles/heroku-cli.
+
+# Building and running your app
+To run the app contained in your repo, go your repo's root folder, the "POM.xml" should be there, this file is the configuration Maven uses to build your app. Run this command in your terminal:
+```
+mvn package
+```
+
+Once your app is built, run your app with:
+```
+heroku local
+```
+
+Once your app is up and running locally, you can access at htttp://localhost:5000.
+
+## Important
+After you are satisfied with the changes you made to your code, remember they are still in your machine. You must push these changes to your github's web repo (remote), and they will be visible to everyone who has access to your repo. If you followed the steps linking your Heroku app with this repo, it will automaitcally deploy it.
+
+# Sharing your repo with the TA
+Your repo must be private and for me to grade your code, add me a a contributor. My username is luminaxster.
+
+# Follow the original guide
 For more details about how to create a Tomcat setup from scratch, go to the Dev Center guide on how to [Create a Java Web Application using Embedded Tomcat](https://devcenter.heroku.com/articles/create-a-java-web-application-using-embedded-tomcat).
 
-## Resources: 
+# Resources: 
 
 https://kbroman.org/github_tutorial/pages/init.html  
+
 
 
