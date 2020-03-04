@@ -5,7 +5,7 @@ This tutorial will show you how to deploy a Heroku app that runs servlets and JS
 Check the currently deployed version: https://swe432tomcat.herokuapp.com
 
 ## Quick Reference
-Use them only if you already followed this tutorial and want a quick reminder of the commands:
+Use these commnads only if you already followed this tutorial and want a quick reminder of common tasks:
 
 ### Redeploying the app by pushing changes to the remote repo
 ```
