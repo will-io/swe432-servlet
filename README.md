@@ -1,11 +1,11 @@
 # Using Heroku to deploy servlets and JSPs
 
-This tutorial will show you how to deploy a Heroku app that runs Servlets and JSPs.
+This tutorial will show you how to deploy a Heroku app that runs servlets and JSPs.
 
 Check the currently deployed version: https://swe432tomcat.herokuapp.com
 
 ## Quick Reference
-If you already followed this tutoriala and want a quick reminder of commands found here:
+Use them only if you already followed this tutorial and want a quick reminder of commands found here:
 
 ### Redeploying the app by pushing changes to my remote repo
 ```
