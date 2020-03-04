@@ -7,7 +7,7 @@ Check the currently deployed version: https://swe432tomcat.herokuapp.com
 ## Quick Reference
 Use them only if you already followed this tutorial and want a quick reminder of the commands:
 
-### Redeploying the app by pushing changes to my remote repo
+### Redeploying the app by pushing changes to the remote repo
 ```
 git add . ; git commit -m "TODO: I really should explain these changes"; git push
 ```
