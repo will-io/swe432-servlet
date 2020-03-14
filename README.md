@@ -118,6 +118,16 @@ Important: Reopen your terminal for the changes to be reflected.
 #### Heroku CLI installation
 If you have not installed the Heroku CLI  before, you can get it here: https://devcenter.heroku.com/articles/heroku-cli.
 
+For Windows machines, this repo's [Procfile](https://github.com/luminaxster/swe432tomcat/blob/master/Procfile) is set up for Unix-like machines, "sh" is the shell command in Unix . In Windows, replace the following line in the Procfile:
+```
+web: sh target/bin/webapp
+```
+ 
+for the following:
+```
+web: target\bin\webapp.bat
+```
+
 ### Build and run your app
 To run the app contained in your repo, go your repo's root folder, the "POM.xml" should be there, this file is the configuration Maven uses to build your app so Heroku can run it. You should perform the following commands each time you want to run the latest version of your app, make sure there are no errors after you run them. 
 
