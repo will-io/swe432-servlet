@@ -1,6 +1,7 @@
 # Using Heroku to deploy servlets and JSPs
 
-This tutorial will show you how to deploy a Heroku app that runs servlets and JSPs.
+This tutorial will show you how to deploy and develop a Heroku app that runs servlets and JSPs.
+There are two activities covered in this tutorial: deployment will cover how to obtain a remote repository, making a copy of it in your own repository, persisting changes from your local instance to your remote one in GitHub and automatically deploy your app in Heroku, and development will cover how to build and run your app locally.
 
 Check the currently deployed version: https://swe432tomcat.herokuapp.com
 
@@ -31,7 +32,7 @@ Go to https://signup.heroku.com to create your account.
 
 Optional: You can use the GitHub student package found at https://www.heroku.com/github-students. 
 
-## Create a Git repo(sitory) and and link it to a Heroku app 
+## Deployment: Create a Git repo(sitory) and and link it to a Heroku app 
 
 If you have not installed Git before, you can get it here: https://git-scm.com/downloads.
 
@@ -93,7 +94,7 @@ Once in your Heroku app web page, select the "deploy" tab:
 
 You only have to push your changes on your repo and they will redeploy automatically.
 
-## Running your app locally
+## Development: Running your app locally
 
 Before deploying your app in the Web, you normally program, debug and test your app locally. To do so, we will need Apache Maven to build your app and Heroku CLI to run it locally. 
 
@@ -143,6 +144,22 @@ heroku local
 ```
 
 You should be able to access your app at http://localhost:5000.
+
+### Making changes: adding a new servlet
+
+In your machine, place your servlet file in the ```src/main/servlet``` folder and add the servlet annotation so your app builder (via Maven) knows how to index it:
+```
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet( name = "servletName", urlPatterns = {"/servicePathName"} )
+```
+ 
+You can inspect the [example](https://github.com/luminaxster/swe432tomcat/blob/master/src/main/java/servlet/HelloServlet.java) in that folder for more details.
+
+Now you can observe, debug or test your app locally by building your app (in terminal: ```mvn package```) and running it in your local server (in terminal: ```heroku local```). After that, ```localhost:5000/servicePathName``` (as in urlPatterns property from the annotation above) must be working.
+
+
+Finally, once you are done making changes in your app and want to make it public, pushing your local changes to your repo will automatically deploy this version of the app in your Heroku hosting (described in the Deployment section).
 
 ## Important
 After you are satisfied changing your code, remember they are still in your machine. You must push these changes to your github's web repo (remote), only then they will be visible to everybody. If you followed the steps linking your Heroku app with this repo, pushing changes in to your remote repo will redeploy your Heroku app.
