@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<title>Two buttons example</title>
+ <link rel="stylesheet" type="text/css" href="https://www.cs.gmu.edu/~offutt/classes/432/432-style.css">
+</head>
+
+<body>
+<p>
+A simple example that demonstrates how to operate with
+multiple submit buttons.
+</p>
+<form method="post" action="https://swe432-servlet-wesquive.herokuapp.com/twoButtons">
+
+ <table>
+  <tr>
+   <td>First value:
+   <td><input type="text" name="LHS" value="" size=5>
+  </tr>
+  <tr>
+   <td>Second value:
+   <td><input type="text" name="RHS" value="" size=5>
+  </tr>
+  <tr>
+   <td>Result:
+   <td><input type="text" name="RHS" value="" size=6>
+  </tr>
+ </table>
+ <br>
+ <br>
+ <input type="submit" value="Add" name="Operation">
+ <input type="submit" value="Multiply" name="Operation">
+ <input type="submit" value="Subtract" name="Operation">
+ <input type="reset" value="Reset" name="reset">
+</form>
+
+</body>
+
+</html>
