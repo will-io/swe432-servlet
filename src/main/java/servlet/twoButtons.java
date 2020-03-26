@@ -29,7 +29,7 @@ import javax.servlet.annotation.WebServlet;
 // private void PrintTail (PrintWriter out) --> Prints the HTML bottom
 //***********************************************************************
 @WebServlet(
-        name = "MyServlets",
+        name = "MyServlet",
         urlPatterns = {"/twoButtons"}
     )
 
